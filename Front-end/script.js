@@ -4,7 +4,7 @@ document.getElementById("form-cadastro").addEventListener("submit", function (e)
   const nome = document.getElementById("nome").value;
   const email = document.getElementById("email").value;
 
-  fetch("http://localhost:5000/usuarios", { // depois troca esse URL pro backend real
+  fetch("https://flask-backend-2wff.onrender.com/usuarios", { // depois troca esse URL pro backend real
     method: "POST",
     headers: {
       "Content-Type": "application/json"
