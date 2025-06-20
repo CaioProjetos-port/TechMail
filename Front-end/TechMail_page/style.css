@@ -1,0 +1,36 @@
+body {
+    align-items: center;
+}
+
+.cad-container{
+    max-width: 650px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #151515;
+    border-radius: 24px;
+
+    .cad-title{
+        color: #fff;
+        font-family: 'Fonte-principal', sans-serif;
+        font-size: 3rem;
+        margin: 2rem;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+    .cad-container{
+        border-radius: 24px;
+        margin: 15px;
+        height: auto;
+    }
+}
+
+@font-face {
+    font-family: 'Fonte-principal', sans-serif;
+    src: url(fonts/29lt-bukra.ttf) format('truetype');
+}
