@@ -1,7 +1,7 @@
 # Frontend - TechMail
 
 Este repositório contém a interface frontend do sistema TechMail.  
-<br>
+  
 
 ## Visão Geral
 
@@ -15,14 +15,14 @@ O frontend é responsável por:
   2. O JavaScript no navegador envia uma requisição HTTP POST para o backend com os dados do formulário.
   3. O backend (API Flask) recebe a requisição, processa e armazena no banco de dados.
   4. O backend devolve uma resposta HTTP para o frontend.
-  <br>
+    
 
 ## Tecnologias Utilizadas
 
 - **Bootstrap** – framework de CSS para estilização e layout responsivo
 - **Fetch API** – nativa do navegador, usada para requisições HTTP
 - **Integração com API Flask** – comunicação com o backend via API REST
-<br>
+  
 
 ## Tipo de comunicação
 - Nome técnico: Comunicação via REST API
@@ -30,7 +30,7 @@ O frontend é responsável por:
 - Método HTTP usado: POST
 - Protocolo: HTTP (com HTTPS)
 - Padrão de arquitetura: Cliente-servidor (Frontend + Backend)
-<br>
+  
 
 ## Configuração do Ambiente
 
