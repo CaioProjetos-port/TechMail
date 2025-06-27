@@ -2,23 +2,32 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Cadastro de Usuários</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechMail - Decodificando</title>
   <link rel="stylesheet" href="TechMail_page/style.css">
 </head>
 <body>
 
-  <div class="cad-container">
+  <div class="main-container">
+    <div class="head-container">
+        <img class="logo" src="TechMail_page/images/logo.png" alt="">
+        <h1 class="title">Increva-se no TechMail</h2>
+        <p class="subtitle">Receba notícias todos os dias sobre tecnologia diretamente no seu e-mail e se mantenha informado de tudo que acontece no mundo.</p>
+    </div>
+    
+    <div class="body-container">
+        <form class="form-cadastro" id="form-cadastro">
+            <h2 class="title">Cadastre-se</h2>
+            <input class="text-input" type="text" id="nome" placeholder="Nome" required>
+            <input class="text-input" type="email" id="email" placeholder="Email" required>
 
-    <h1 class="cad-title">TechMail</h2>
+            <input class="check-input" type="checkbox" id="preferencia-1">
+            <label for="preferencia-1">Preferencia 1</label>
 
-    <h2>Cadastre-se</h2>
-
-    <form id="form-cadastro">
-      <input type="text" id="nome" placeholder="Nome" required>
-      <input type="email" id="email" placeholder="Email" required>
-      <button type="submit">Enviar</button>
-    </form>
-    <p id="mensagem"></p>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem"></p>
+    </div>
 
   </div>
 
